@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a href="./index.html">ADNAN</a></label>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./service.html">Services</a></li>
+        <li><a class="active" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="service">
+      <div class="title_all">
+        <h1 class="text"></h1>
+        <div class="all_link">
+          <div class="email">
+            <p>
+              <b>E</b> :
+              <a href="mailto:adnansami5121@gmail.com"
+                >adnansami5121@gmail.com</a
+              >
+            </p>
+            <p><b>T</b> : <a href="tel:01866650447">+880 01866650447</a></p>
+          </div>
+        </div>
+        <span class="span">
+          <a href="#bottom">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="contact_min" id="bottom">
+      <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper con_tact">
+          <form action="https://formspree.io/f/maykrlnk" method="POST">
+            <div class="formbold-mb-5">
+              <label for="name" class="formbold-form-label"> Full Name </label>
+              <input
+                required
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+                class="formbold-form-input"
+              />
+            </div>
+
+            <div class="formbold-mb-5">
+              <label for="email" class="formbold-form-label">
+                Email Address
+              </label>
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                class="formbold-form-input"
+              />
+            </div>
+
+            <div class="formbold-mb-5">
+              <label for="subject" class="formbold-form-label"> Subject </label>
+              <input
+                required
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Enter your subject"
+                class="formbold-form-input"
+              />
+            </div>
+
+            <div class="formbold-mb-5">
+              <label for="message" class="formbold-form-label"> Message </label>
+              <textarea
+                required
+                rows="6"
+                name="message"
+                id="message"
+                placeholder="Type your message"
+                class="formbold-form-input"
+              ></textarea>
+            </div>
+
+            <div class="about_sec_3">
+              <button>SEND</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var typed = new Typed(".text", {
+      strings: ["CONTACT"],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true,
+    });
+  </script>
+</html>
